@@ -11,6 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building for all Talis device types ..."
+                sh 'make clean'
                 sh 'make hello'
             }
         }
