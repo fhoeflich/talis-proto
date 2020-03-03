@@ -11,19 +11,19 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building for all Talis device types ..."
-                sh 'true'
+                sh 'false'
             }
         }
         stage('Test') {
             steps {
                 echo "Testing all Talis device types ..."
-                sh 'true'
+                sh 'false'
             }
         }
         stage('Deploy') {
             steps {
                 echo "Deploying to ${TALIS_DEVICE_TYPE} ..."
-                sh 'true'
+                sh 'false'
             }
         }
     }
