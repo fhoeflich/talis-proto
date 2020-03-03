@@ -17,13 +17,13 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Testing all Talis device types ..."
-                sh 'true'
+                sh './hello'
             }
         }
         stage('Deploy') {
             steps {
                 echo "Deploying to ${TALIS_DEVICE_TYPE} ..."
-                sh 'false'
+                sh 'true'
             }
         }
     }
