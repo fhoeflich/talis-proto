@@ -11,7 +11,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building for all Talis device types ..."
-                sh 'false'
+                sh 'true'
             }
         }
         stage('Test') {
