@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         TALIS_DEVICE_TYPE = 'Talis1GDevice'
-#       TALIS_DEVICE_TYPE = 'Talis4GDevice'
+        TALIS_DEVICE_TYPE4 = 'Talis4GDevice'
         DB_ENGINE = 'sqlite'
     }
 
