@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* #define SUCCEED */
+#define SUCCEED
 
 int
 main()
